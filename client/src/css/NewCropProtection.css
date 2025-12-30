@@ -1,0 +1,131 @@
+/* --- SOFT THEME VARIABLES --- */
+:root {
+  --soft-green: #2d4a3e; /* Lower tone green */
+  --soft-orange: #ff9f2f;
+  --glass-white: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.15);
+}
+
+.protection-page {
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+}
+
+.soft-bg-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  /* Desaturated, lighter gradient */
+  background: linear-gradient(135deg, rgba(45, 74, 62, 0.85), rgba(30, 48, 41, 0.9)),
+              url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000') center/cover fixed;
+  z-index: -1;
+}
+
+/* --- MINIMAL NAV --- */
+.minimal-glass-nav {
+  padding: 20px 5%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.nav-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.status-indicator { color: var(--soft-orange); animation: blink 2s infinite; }
+
+/* --- GRID & CARDS --- */
+.protection-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 50px 5%;
+}
+
+.protection-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 40px;
+}
+
+.frosted-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(25px);
+  border: 1px solid var(--glass-border);
+  border-radius: 30px;
+  padding: 45px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* --- CONTENT STYLING --- */
+.title-text {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+}
+
+.soft-divider {
+  height: 2px; width: 60px;
+  background: var(--soft-orange);
+  margin: 20px 0;
+}
+
+.description-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+}
+
+/* --- TREATMENT BOXES --- */
+.treatment-box {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 1px solid var(--glass-border);
+}
+
+.treatment-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.dot { width: 10px; height: 10px; border-radius: 50%; }
+.green { background: #4ade80; }
+.orange { background: var(--soft-orange); }
+
+.treatment-box h3 { font-size: 1.2rem; margin: 0; color: #fff; }
+.treatment-box p { font-size: 1rem; color: rgba(255, 255, 255, 0.7); line-height: 1.6; }
+
+/* --- VISUALS --- */
+.disease-img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.image-caption {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.soft-back-btn {
+  display: inline-block;
+  color: var(--soft-orange);
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }

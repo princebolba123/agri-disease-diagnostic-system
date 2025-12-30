@@ -1,0 +1,77 @@
+/* --- AUTH PAGES STYLING --- */
+.auth-screen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Fixed background matches the banner feel */
+  background: url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=2070') fixed center/cover;
+  padding: 20px;
+}
+
+.auth-glass-container {
+  background: rgba(13, 39, 23, 0.88); /* Deep Emerald Translucency */
+  backdrop-filter: blur(25px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  padding: 50px 40px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+}
+
+/* Brand Branding */
+.brand-logo { font-size: 36px; font-weight: 900; }
+.brand-logo span { color: #ff9f2f; } /* Diagnostic Orange */
+
+.auth-tagline { 
+  font-size: 13px; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  opacity: 0.8; 
+  margin: 10px 0 40px; 
+}
+
+/* Form Styles */
+.auth-glass-form .input-field { text-align: left; margin-bottom: 20px; }
+.auth-glass-form label {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: #ff9f2f; /* Highlight matches banner text */
+}
+
+.auth-glass-form input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+}
+
+/* Primary Button */
+.glow-auth-btn {
+  width: 100%;
+  background: #ff9f2f; 
+  color: #0d2717;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.glow-auth-btn:hover {
+  background: #fff;
+  transform: translateY(-3px);
+}
+
+.auth-switch p { margin-top: 25px; font-size: 14px; opacity: 0.8; }
+.auth-switch a { color: #ff9f2f; font-weight: 800; text-decoration: none; }

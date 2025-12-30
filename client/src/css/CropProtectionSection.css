@@ -1,0 +1,77 @@
+.crop-protection-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 60px 80px;
+background: linear-gradient(175deg,#e6f8c2,#ffffff);
+}
+
+.crop-left {
+  width: 55%;
+}
+
+.crop-left h1 {
+  font-size: 36px;
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+.crop-left p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.crop-left h3 {
+  margin-top: 20px;
+  color: #0b6c39;
+}
+
+.crop-left ul {
+  margin-top: 10px;
+}
+
+.crop-left li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.advantage-btn {
+  margin-top: 25px;
+  padding: 12px 26px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  background: #0fa34a;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.advantage-btn:hover {
+  background: #0b7e36;
+}
+
+.crop-right {
+  width: 40%;
+}
+
+.crop-right img {
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .crop-protection-section {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .crop-left, .crop-right {
+    width: 100%;
+  }
+}

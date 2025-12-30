@@ -1,0 +1,215 @@
+[
+  {
+    "id": "Paddy",
+    "name": "Paddy",
+    "botanical": "Oryza",
+    "image": "https://kj1bcdn.b-cdn.net/media/104491/kharif-sowing-2025.jpg",
+
+    "diseases": [
+      {
+        "id": "blast",
+        "name": "Blast",
+        "image": "https://izumibiosciences.in/wp-content/uploads/2023/06/Rice-Blast-Disease-Symptoms-Signs-Disease-Cycle-and-Management.png",
+        "description": "Rice blast is identified by characteristic spindle-shaped or diamond-shaped lesions on the leaves that feature an ashy-grey or whitish center surrounded by a distinct reddish-brown margin. As the disease advances, these spots enlarge and merge, leading to extensive leaf drying and a burnt appearance across the field. The fungus also targets the nodes, turning them black and brittle, and most critically infects the neck of the panicle. This neck infection causes the tissue to shrivel and turn dark, which obstructs nutrient flow to the grains and results in empty whiteheads that frequently break or hang down.",
+        "organic_cure": "For chemical management (important when infestation is high), apply Malathion 50 EC (2 ml per litre) or Dichlorvos 76 EC (1 ml per litre) as bait spray mixed with jaggery 10 g per litre to attract and kill flies. Alternatively, Lambda Cyhalothrin 5 EC (1 ml per litre) or Spinosad 45 SC (0.5 ml per litre) may be used. Spray during evening hours, repeat at 10–12 days interval if required, and always follow recommended dose, safety precautions, and local agricultural guidelines for effective and safe pest control.",
+        "chemical_cure": "For chemical management (important when infestation is high), apply Malathion 50 EC (2 ml per litre) or Dichlorvos 76 EC (1 ml per litre) as bait spray mixed with jaggery 10 g per litre to attract and kill flies. Alternatively, Lambda Cyhalothrin 5 EC (1 ml per litre) or Spinosad 45 SC (0.5 ml per litre) may be used. Spray during evening hours, repeat at 10–12 days interval if required, and always follow recommended dose, safety precautions, and local agricultural guidelines for effective and safe pest control."
+      },
+      {
+        "id": "brownspot",
+        "name": "Brown Spot",
+        "image": "https://pestsdiseases.com/wp-content/uploads/Rice-Brown-Spot-Management-in-Paddy1.jpg",
+        "description": "Brown spot of paddy, caused by the fungus Bipolaris oryzae, is identified by numerous small, oval to circular lesions on the leaf blades that resemble sesame seeds. These spots are typically dark brown or reddish-brown in their early stages but develop a light brown or greyish center as they mature, often surrounded by a thin yellow halo. Unlike the diamond-shaped lesions of rice blast, brown spot lesions are more rounded and uniform in shape. The disease also affects the grains, appearing as dark brown or black spots on the glumes, which can lead to incomplete grain filling and a significant reduction in kernel weight and quality.",
+        "organic_cure": "Pseudomonas fluorescens @ 10g/liter. Applying this bio-agent as a foliar spray or seedling dip helps suppress fungal growth and is particularly effective when combined with soil amendments like silica or well-decomposed manure.",
+        "chemical_cure": "Spray Propiconazole 25 EC @ 1 ml/liter. This systemic fungicide is highly effective for managing brown leaf spot and should be applied at the first appearance of symptoms to prevent significant yield loss."
+      },
+      {
+        "id": "blb",
+        "name": "Bacterial Leaf Blight",
+        "image": "https://agriculturistmusa.com/wp-content/uploads/2018/05/Bacterial-leaf-blight-of-rice.jpg",
+        "description": "Bacterial Leaf Blight, caused by the bacterium Xanthomonas oryzae pv. oryzae, is typically identified by long, wavy, water-soaked streaks that begin at the leaf tips and margins. As the infection progresses, these streaks turn a pale yellow to straw-yellow color and eventually enlarge to cover significant portions of the leaf blade. A hallmark of this disease is the presence of milky or opaque bacterial ooze that appears as tiny droplets on young lesions during the early morning hours, which later dry into small yellowish beads or a white crust. In the most severe form, known as the kresek phase, young seedlings may rapidly wilt, roll up, and turn a greyish-green color before the entire plant dies.",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter. This bio-control agent should be used as a seedling root dip and foliar spray to inhibit bacterial multiplication and enhance the systemic resistance of the rice plants",
+        "chemical_cure": "Spray Streptocycline @ 0.1g/liter mixed with Copper Oxychloride @ 2g/liter. This combination of an antibiotic and a contact fungicide is the standard treatment for stopping the secondary spread of the bacteria across the field."
+      },
+      {
+        "id": "tungro",
+        "name": "Tungro",
+        "image": "https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-19-3120-8_3/MediaObjects/517113_1_En_3_Fig2_HTML.png",
+        "description": "Tungro disease is a viral infection transmitted by green leafhoppers that is primarily identified by a distinct yellow to orange-yellow discoloration of the rice leaves. Infected plants exhibit severe stunting and a significant reduction in the number of tillers, giving the crop a bunched or stunted appearance. The discoloration usually starts from the leaf tips and extends downward to the leaf base, and while the plant may remain alive, it produces very small or partially filled panicles. Symptoms are most evident in young plants, where the infection can lead to a complete failure of grain production if the virus is introduced during the early growth stages.",
+        "organic_cure": "Use Neem Oil @ 5ml/liter. Since Tungro is a viral disease, organic management focuses on controlling the green leafhopper vector using neem-based products and installing yellow sticky traps to reduce the insect population",
+        "chemical_cure": "Spray Thiamethoxam 25 WG @ 0.2g/liter. This insecticide targets the green leafhoppers that transmit the virus; by eliminating the carrier insects, the secondary spread of the disease through the paddy field is effectively halted."
+      }
+    ]
+  },
+
+  {
+    "id": "Wheat",
+    "name": "Wheat",
+    "botanical": "Fragaria × ananassa",
+    "image": "https://www.koppert.com/content/_processed_/d/b/csm_IMG_20181214_120224_5cbbd144d2.jpg",
+
+    "diseases": [
+      {
+        "id": "blast",
+        "name": "Blast",
+        "image": "https://izumibiosciences.in/wp-content/uploads/2023/06/Rice-Blast-Disease-Symptoms-Signs-Disease-Cycle-and-Management.png",
+        "description": "Rice blast, caused by the fungus Magnaporthe oryzae, is one of the most destructive diseases in paddy crops, recognizable by its distinct spindle-shaped or diamond-shaped lesions. On leaves, these spots typically have an ashy-grey or white center surrounded by a reddish-brown or dark border. In severe cases, these lesions merge, causing the entire leaf to wither and giving the field a burnt appearance. The disease also attacks the nodes, which turn black and become fragile, often causing the stem to snap. Most critically, it can infect the neck (the portion of the stem supporting the seed head), resulting in neck rot or rotten neck. This causes the neck to shrivel and turn black, leading to empty or partially filled grains and often causing the entire panicle to break and fall over.",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "brownspot",
+        "name": "Brown Spot",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_diseases/index/2_brownspot.jpg",
+        "description": "Rice blast, caused by the fungus Magnaporthe oryzae, is one of the most destructive diseases in paddy crops, recognizable by its distinct spindle-shaped or diamond-shaped lesions. On leaves, these spots typically have an ashy-grey or white center surrounded by a reddish-brown or dark border. In severe cases, these lesions merge, causing the entire leaf to wither and giving the field a burnt appearance. The disease also attacks the nodes, which turn black and become fragile, often causing the stem to snap. Most critically, it can infect the neck (the portion of the stem supporting the seed head), resulting in neck rot or rotten neck. This causes the neck to shrivel and turn black, leading to empty or partially filled grains and often causing the entire panicle to break and fall over.",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "blb",
+        "name": "Bacterial Leaf Blight",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_diseases/index/3_BLB.jpg",
+        "description": "BLB description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      }
+    ]
+  },
+
+  {
+    "id": "Soyabean",
+    "name": "Soyabean",
+    "botanical": "Fragaria × ananassa",
+    "image": "https://www.koppert.com/content/_processed_/d/b/csm_IMG_20181214_120224_5cbbd144d2.jpg",
+
+    "diseases": [
+      {
+        "id": "blast",
+        "name": "Blast",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_diseases/index/1_blast.jpg",
+        "description": "Blast description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "brownspot",
+        "name": "Brown Spot",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/2_brownspot.jpg",
+        "description": "Brown spot description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "blb",
+        "name": "Bacterial Leaf Blight",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/3_BLB.jpg",
+        "description": "BLB description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      }
+    ]
+  },
+
+  {
+    "id": "Guava",
+    "name": "Guava",
+    "botanical": "Fragaria × ananassa",
+    "image": "https://www.koppert.com/content/_processed_/d/b/csm_IMG_20181214_120224_5cbbd144d2.jpg",
+
+    "diseases": [
+      {
+        "id": "blast",
+        "name": "Blast",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_diseases/index/1_blast.jpg",
+        "description": "Blast description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "brownspot",
+        "name": "Brown Spot",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/2_brownspot.jpg",
+        "description": "Brown spot description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "blb",
+        "name": "Bacterial Leaf Blight",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/3_BLB.jpg",
+        "description": "BLB description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      }
+    ]
+  },
+
+  {
+    "id": "Orange",
+    "name": "Orange",
+    "botanical": "Fragaria × ananassa",
+    "image": "https://www.koppert.com/content/_processed_/d/b/csm_IMG_20181214_120224_5cbbd144d2.jpg",
+
+    "diseases": [
+      {
+        "id": "blast",
+        "name": "Blast",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_diseases/index/1_blast.jpg",
+        "description": "Blast description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "brownspot",
+        "name": "Brown Spot",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/2_brownspot.jpg",
+        "description": "Brown spot description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "blb",
+        "name": "Bacterial Leaf Blight",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/3_BLB.jpg",
+        "description": "BLB description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      }
+    ]
+  },
+
+  {
+    "id": "Banana",
+    "name": "Banana",
+    "botanical": "Fragaria × ananassa",
+    "image": "https://www.koppert.com/content/_processed_/d/b/csm_IMG_20181214_120224_5cbbd144d2.jpg",
+
+    "diseases": [
+      {
+        "id": "blast",
+        "name": "Blast",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_diseases/index/1_blast.jpg",
+        "description": "Blast description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "brownspot",
+        "name": "Brown Spot",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/2_brownspot.jpg",
+        "description": "Brown spot description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      },
+      {
+        "id": "blb",
+        "name": "Bacterial Leaf Blight",
+        "image": "https://agritech.tnau.ac.in/crop_protection/images/rice_disease1/index/3_BLB.jpg",
+        "description": "BLB description...",
+        "organic_cure": "Use Pseudomonas fluorescens @ 10g/liter.",
+        "chemical_cure": "Spray Tricyclazole 75 WP @ 0.6 g/liter."
+      }
+    ]
+  }
+
+  
+]
