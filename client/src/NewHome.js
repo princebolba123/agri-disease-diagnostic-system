@@ -12,7 +12,7 @@ const NewHome = () => {
 
   useEffect(() => {
     // Fetching the keys (kharif, rabi, citrus, etc.) from your server
-    fetch('http://localhost:5000/api/crop-types')
+    fetch('https://agri-disease-diagnostic-system.onrender.com/api/crop-types')
       .then(res => res.json())
       .then(data => setCategories(data))
       .catch(err => console.error("Database error:", err));

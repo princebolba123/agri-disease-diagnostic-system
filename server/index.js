@@ -9,7 +9,9 @@ const PORT = 5000;
 // Connect to MongoDB Atlas
 connectDB();
 
-app.use(cors());
+app.use(cors({
+  origin:  "https://gramora.netlify.app"
+}));
 app.use(express.json());
 
 // ROUTE 1: Get all category keys (for NewHome cards)

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e5b06f6.css",
+    "main.js": "/static/js/main.60f2e4fc.js",
+    "static/media/hero5.jpg": "/static/media/hero5.03e2745d3833cb04f9ac.jpg",
+    "static/media/gramoralogo.png": "/static/media/gramoralogo.abcf09dd3b022b410b3f.png",
+    "index.html": "/index.html",
+    "main.1e5b06f6.css.map": "/static/css/main.1e5b06f6.css.map",
+    "main.60f2e4fc.js.map": "/static/js/main.60f2e4fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e5b06f6.css",
+    "static/js/main.60f2e4fc.js"
+  ]
+}

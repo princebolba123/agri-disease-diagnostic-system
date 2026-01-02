@@ -11,7 +11,7 @@ const NewCropPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/agriculture')
+    fetch('https://agri-disease-diagnostic-system.onrender.com/api/agriculture')
       .then(res => res.json())
       .then(data => {
         if (data && data.crop && data.crop.cropType) {
